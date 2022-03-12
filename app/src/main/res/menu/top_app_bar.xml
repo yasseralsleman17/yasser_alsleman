@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/menu_action_search"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"
+        app:iconTint="#73899C"
+
+        />
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/im_5_5"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/moree"
+        android:icon="@drawable/im_4_4"
+        android:title=""
+        app:showAsAction="always"  />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/im_3_3"
+        android:title=""
+        app:showAsAction="always"
+        />
+
+
+</menu>
